@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/other.css"/>
+		<script src="" type="text/javascript" charset="utf-8"></script>
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="registerheader r-wrapper">
+			<div class="r-l-header clearfix">
+				<div class="logo">
+					<a href="www.zol.com">
+						<img src="images/logo_216x100.png" alt="" />
+						<p>中关村在线旗下网上商城</p>
+					</a>
+				</div>	
+				<div class="r-bar">
+					已经有Z商城账号？<a href="">立即注册</a>
+				</div>
+			</div>
+		</div>
+		<div class="r-body r-wrapper clearfix">
+			<div class="tittle">30秒快速注册，加入Z商城</div>
+			<div class="regisform">
+				<form action="php/reg.php" class="registable" method="post">
+					<div class="regis-form">
+						<div class="label">
+							<em>用户名：</em>
+						</div>
+						<input type="text" name="username"  value="" class="text" id="username"/>
+						<i class="wrong-tips"></i>
+						<p>请填写用户名</p>
+					</div>
+					<div class="regis-form">
+						<div class="label">
+							<em>验证码：</em>
+						</div>
+						<input type="text"  class="text shorttext"/>
+						<p>请填写验证码</p>
+					</div>
+					<div class="regis-form clearfix">
+						<div class="label left">
+							<em>验证码：</em>
+						</div>
+						<input type="text" class="text  left shorttext"/>
+						<input type="button" value="获取短信验证码" class="getmeg"/>
+						<p>请填写短信验证码</p>
+					</div>
+					<div class="regis-form">
+						<div class="label">
+							<em>密码：</em>
+						</div>
+						<input type="password" name="password" class="text" id="password"/>
+						<i class="wrong-tips"></i>
+						<p>6-16位字母和数字的组合，不可用特殊字符</p>
+					</div>
+					<div class="regis-form">
+						<div class="label">
+							<em>确认密码：</em>
+						</div>
+						<input type="password" name="repass"  class="text" id="passagain"/>
+						<i class="wrong-tips"></i>
+						<p>再次输入密码</p>
+					</div>
+					<label  class="agreement">
+						<input type="checkbox" name="" id="" value="" />同意
+						<a href="">《商城用户协议》</a>
+						<a href="">《隐私权说明》</a>
+					</label>
+					<input type="submit" name="submit" value="注册" class="register-btn"/>
+				</form>
+			</div>	
+			<div class="fast-login"></div>
+		</div>
+		<footer class="clearfix r-footer">
+			<div class="r-wrapper clearfix">
+				<div class="about left">
+					<a href="">关于Z商城</a>
+					|
+					<a href="">联系我们</a>
+					|
+					<a href="">帮助中心</a>
+				</div>
+				<div class="copyright right " >
+					©2018. 中关村在线 版权所有
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

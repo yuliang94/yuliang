@@ -1,0 +1,273 @@
+@charset"utf-8";
+
+$font12:12px;
+$font18:18px;
+*{
+    margin: 0;
+    padding:0;
+}
+html,body{
+ 
+  font-size: 14px;
+    
+}
+body{
+    background: #f7f7f7;
+}
+.clearfix:after{
+    display:block;clear:both;content:"";visibility:hidden;height:0
+}    
+a{
+    text-decoration: none;
+   
+}
+li{
+    list-style: none;
+}
+
+.left{
+    float: left;
+}
+.index{
+    a{
+        line-height: 30px;
+    } 
+}
+.index a{
+    font-size: $font12;
+    color: #36c;
+}
+.right{
+    float: right;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.topbar{
+    background: #f5f5f5;
+    border-bottom: 1px solid #E6E6E6;
+}
+.shoplist{
+    li{
+        height: 29px;
+        a{
+            color: #666;
+            line-height: 30px;
+            font-size: $font12;
+        }
+        float: left;
+        margin: 0 10px 0;
+    }
+}
+
+.shoplist a:hover{
+    color: #c00;
+    text-decoration: underline;
+}
+.index>span{
+    a:hover{
+    color: #c00;
+    text-decoration: underline;
+    }
+    padding: 0 20px 0 0;
+};
+/*topbar-----------------------*/
+
+
+header{
+   
+    padding: 30px 0;
+   background: #fff;
+}
+header h1{
+    margin: 0;
+}
+header h1 img{
+    display: block;
+    width: 130px;
+    height: 60px;
+}
+.city{
+        
+        position: relative;
+        zoom: 1;
+        margin: 10px 0 0 20px;
+        border: 1px solid #e6e6e6;
+        z-index: 103;
+}
+.city>span{
+    display: block;
+    height: 26px;
+    padding: 0 26px 0 12px;
+    font-size: 14px;
+    line-height: 28px;
+}
+header .quick-entry{
+    margin-left: 65px;
+    padding-top: 7px;
+}
+header .quick-entry a{
+    font-size: 14px;
+    line-height: 33px;
+    color: #333;
+    margin-left: 20px ;
+}
+header .search-box{
+    width: 541px;
+    height:32px;
+    border:1px solid #ec3639;
+    margin-top: 7px;
+}
+header input[type='text']{
+        padding: 6px 10px;
+        width: 441px;
+        height: 20px;
+        font: 14px/20px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+        color: #666;
+        border: 0 none;
+        outline: 0 none;
+}
+header input[type='submit']{
+        top: 0;
+        right: 0;
+        width: 75px;
+        height: 32px;
+        font: 16px/32px ;
+        color: #fff;
+        border: 0 none;
+        background: #ec3639;
+        outline: 0 none;
+        cursor: pointer;
+}
+
+/*header-----------------------*/
+.navbar{
+    height: 40px;
+    background: orange;
+}
+/*topbar-----------------------*/
+.banner{
+    height: 400px;
+    background: deepskyblue;
+}
+/*banner----------------------------------------------*/
+.box{
+    height: 1000px;
+    background: powderblue;
+}
+/*-----------------------*/
+footer{
+ 
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    
+}
+
+footer ul{
+    li{
+        width: 200px;
+        height: 50px;
+        float: left;
+        background: url(../images/service-bg.png) no-repeat;
+        a{
+          padding-left: 60px; 
+          display: block;
+          height: 50px; 
+        }
+    }
+}
+.footlist{
+    padding: 30px 0;
+   
+}
+.footlist li .topp{
+    height: 28px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+}
+.footlist li .below{
+    height: 22px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+}
+/*-foot-list-----------*/
+
+
+.foot-sev {
+    border-top:1px solid #ccc ;
+    padding: 30px 0 20px 0 ;
+    dl{
+    float: left;
+    width: 175px;
+}
+
+}
+dl dt{
+    font:bold 14px/28px "Microsoft YaHei","\5FAE\8F6F\96C5\9ED1";
+    font-size: 16px;
+   color: #666;
+}
+.foot-sev dl dd{
+    padding: 5px 0;
+    a{
+        color: #666;
+    }
+    
+    
+}
+
+.foot-sev  .btn{
+    display: block;
+    width: 80px;
+    height: 26px;
+    background:#f33;
+    margin-top: 6px;
+    text-align: center;
+}
+.foot-sev .hotline{
+    width: 210px;
+    float: right;
+    background: url(../images/footer.png) no-repeat 0 -95px;
+    padding-left: 60px;
+}
+.foot-sev .cooperation{
+    width: 145px;
+    p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    float: right;
+    padding-left: 60px;
+    background: url(../images/footer.png) no-repeat 0 -215px;
+}
+/*--------foot-sev-------*/
+
+.foot-navbar{
+    background: #2d2d2d;
+    padding: 25px 0 30px;
+    color: #999;
+}
+.f-narbar a{
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+.copyright{
+    padding-top: 20px;
+    color: #666;
+    a{
+        color: #666;
+        padding: 0 10px;
+    }
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+/*-----foot-navbar------*/
+/*footer----------------------*/
+
+
